@@ -6,6 +6,10 @@
 body{
     background: #091a20;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
 }
 
 .container-fluid{
@@ -35,8 +39,8 @@ body{
     background: transparent;
 }
 .inputs input[type="text"] {
-    height: 3.5rem;
-    width: 100%;
+   
+    width: 300px;
 
     font-weight: bold;
     font-size: 100%;
@@ -70,11 +74,11 @@ body{
 }
 .display {
     text-align: center;
-    width: 100%;
+    width: 400px;
     justify-content: center;
     display: block;
     color: #16a864;
-    opacity: 0;
+    opacity: 1;
     min-height: auto;
     outline: none !important;
     border-radius: 2px;
@@ -113,3 +117,4 @@ body{
     color: white;
     
   }
+
