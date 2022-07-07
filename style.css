@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #091a20;
+    width: 100%;
+}
+
+.container-fluid{
+ width: 30%;
+ margin: 4% auto;
+ padding: 1%;
+ justify-content: center;
+ align-items: center;
+
+}
+.heading{
+   color: white;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   font-size: 200%;
+   font-weight: 200;
+
+}
+.inputs {
+    
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    
+    background: transparent;
+}
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 100%;
+
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 3%;
+    border: none;
+   background-color: #112d37;
+    border: 2px solid #215164;
+    border-radius: 2%;
+    margin-right:1% ;
+    color: #fff;
+}
+.inputs input::placeholder{
+    color: #346a80;
+}
+.inputs input:focus-within{
+    outline: none !important;
+   border:1px solid #55b7dd;
+   box-shadow: 0px 0px 2px 2px #55b7dd34;
+}
+.inputs input[type="submit"] {
+    height: 3.2rem;
+    width: 6.5rem;
+    background: #010101;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.display {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    display: block;
+    color: #16a864;
+    opacity: 1;
+    min-height: auto;
+    outline: none !important;
+    border-radius: 2px;
+    border:1px solid #55b7dd;
+    box-shadow: 0px 0px 2px 2px #55b7dd34;
+}
+.wrapper {
+    margin: 0 5rem;
+    background-color: #112d37;
+    height: 45vh;
+    margin: auto;
+    
+    
+}
+.wrapper h2{
+    padding: 2% 0;
+    text-align: center;
+    background:black ;
+    color: white;
+    font-family: sans-serif;
+    font-size: 150%;
+  }
+  .wrapper p{
+    margin:10% 10%;
+    margin-right: 5%;
+    text-align: left;
+    color: #9beefb;
+    font-size:1.5rem;
+  }
+
+  .wrapper h2 span{
+    
+    color: #9beefb;
+  }
+    .wrapper p span{
+    color: white;
+    font-size: 1.5rem;
+  }
